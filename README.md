@@ -4,6 +4,8 @@
 
 **Description:** Rite CMS 3.0 is affected by a Multiple Cross-Site scripting (XSS) stored vulnerability that allows attackers to execute arbitrary code via a payload crafted in the Home Page fields in the Administration menu. The payload will be executed on the main page independent of the user's session, so accessing the home web with another user will also execute the payload.
 
+Attack Vectors: AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L
+
 ---
 
 ### POC:
